@@ -1,0 +1,166 @@
+@import '~antd/dist/antd.css';
+@import "./assets/font/index.css";
+.App{
+    width: 100%;
+}
+.App_left{
+    width: 185px;
+    padding-left: 67px;
+    /*width: 12.8px;*/
+    /*height: 716px;*/
+    /*background: #131415;*/
+}
+.App_right{
+    width: 90%;
+    position: relative;
+}
+.App_left_titleBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+.App_left_title{
+    font-family: AlibabaPuHuiTi_2_75_;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.App_left_iconSelect{
+    width: 12px;
+    height: 12px;
+    background: url("./assets/img/right.png") 0 0 / 100% 100%;
+    transform: rotate(90deg);
+}
+.App_left_iconNor{
+    width: 12px;
+    height: 12px;
+    background: url("./assets/img/right_black.png") 0 0 / 100% 100%;
+}
+.App_left_historyFont{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 16px;
+    opacity: 0.5;
+    font-family: AlibabaPuHuiTi_2_75_;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #131415;
+    cursor: pointer;
+}
+.App_left_historyTip{
+    width: 120px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #f7f8fd;
+    font-family: AlibabaPuHuiTi_2_55_;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #b7b7b7;
+    padding: 12px 12px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.App_left_fontOne{
+    height: 20px;
+    font-family: AlibabaPuHuiTi_2_35_;
+    font-size: 14px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #2d2d2d;
+    margin: 0;
+    padding: 0;
+
+}
+.App_left_fontTwo{
+    height: 25px;
+    font-family: AlibabaPuHuiTi_2_85_;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #131415;
+    margin: 3px 0 10px 0;
+}
+.App_left_fontThree{
+    height: 20px;
+    font-family: AlibabaPuHuiTi_2_75_;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #2d2d2d;
+    margin: 0;
+    padding: 0;
+}
+.App_left_progress{
+    width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #e6e6e6;
+}
+.App_left_button{
+    width: 80px;
+    height: 32px;
+    border-radius: 8px;
+    border: solid 1px #131415;
+    line-height: 32px;
+    text-align: center;
+    font-family: AlibabaPuHuiTi_2_85_;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #131415;
+    margin-top: 15px;
+}
+.App_contact_userBox{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.App_contactIcon{
+    width: 16px;
+    height: 16px;
+    background: url("./assets/img/contact.png");
+    margin-left: 5px;
+}
+.Two-dimensional-code{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff0f6;
+    background: url("./assets/img/phone.jpg") 0 0 / 100% 100%;
+    position: relative;
+}
+
+.Two-dimensional-code::before{
+    display: block;
+    content: "\A";
+    position: absolute;
+    font-size: 26px;
+    left: -10px;
+    top: 18px;
+    color: #fff0f6;
+    border-style: solid;
+    border-width: 8px 8px 8px 0;
+    border-color: transparent;
+    border-right-color: #fff0f6;
+}

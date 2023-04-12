@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状结合</title>
+    <g id="prompt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-60.000000, -19.000000)" fill="#5E5FD4">
+            <path d="M77,19 C80.8659932,19 84,22.1340068 84,26 C84,29.8659932 80.8659932,33 77,33 L74.438,33 L68.75,36.25 L68.75,33 L67,33 C63.1340068,33 60,29.8659932 60,26 C60,22.1340068 63.1340068,19 67,19 L77,19 Z M76.25,24 L67.75,24.0233605 L67.75,24.0497559 C67.75,26.3694867 69.6527898,28.25 72,28.25 C74.3472102,28.25 76.25,26.3694867 76.25,24.0497559 L76.25,24 Z" id="形状结合"></path>
+        </g>
+    </g>
+</svg>
